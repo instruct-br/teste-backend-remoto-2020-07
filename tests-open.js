@@ -79,7 +79,7 @@ export default () => {
     // de um município
     let del1 = http.del(`${BASE_URL}/feriados/3304557/11-20/`);
     check(del1, {
-      'tentar remover o feriado na capital retorna status 404':
+      'tentar remover o feriado na capital retorna status 403':
       (r) => r.status === 403,
     });
 
