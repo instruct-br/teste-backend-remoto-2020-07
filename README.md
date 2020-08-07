@@ -108,7 +108,7 @@ feriado estadual ou um número com 7 dígitos para representar um feriado
 municipal.
 
 O MES deve ser um mês válido, ou seja, entre 1 e 12. Mesmo cuidado deve ser
-tomado com o dia. Espere uma ano com 4 números, mês com 2 números e dia também
+tomado com o dia. Espere um ano com 4 números, mês com 2 números e dia também
 com 2 números, ou seja, "AAAA-MM-DD".
 
 A sua API deve ser populada com os feriados nacionais. Todos os feriados
