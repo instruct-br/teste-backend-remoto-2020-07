@@ -280,6 +280,24 @@ Exemplo de aplicação rodando no localhost na porta 8000:
 k6 run -e API_BASE='http://localhost:8000' tests-open.js
 ```
 
+## Recomendações
+* Python
+    * Use Python >= 3.6
+    * Estilo de código PEP-8.
+* Javascript
+    * Node.js >= v12.x
+    * ESLint + airbnb
+* Use Git.
+* Escreva testes unitários!
+* Use os conceitos de [12 Factor-App](http://12factor.net);
+* Use os princípios do [SOLID](https://en.wikipedia.org/wiki/SOLID_(object-oriented_design));
+* [Escreva mensagens claras no Git](https://www.git-tower.com/learn/git/ebook/en/command-line/appendix/best-practices);
+* Modele o banco de dados com cautela e procure representar as entidades corretamente;
+* Siga as [boas práticas](https://swagger.io/resources/articles/best-practices-in-api-design/) para o desenvolvimento de APIs RESTful.
+* Documente sua aplicação:
+    * Descreva sua aplicação e os problemas que ela resolve.
+    * Dê instruções de como executar os testes e sua aplicação.
+    * Documente os endpoints da API (ex.: Swagger).
 ---
 
-**Boa sorte!**
+**Boa sorte e divirta-se!**
